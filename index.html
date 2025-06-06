@@ -1,49 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kashish | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background: rgb(69, 8, 88);
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            margin: 20px;
+        }
+        .left {
+            width: 30%;
+            text-align: center;
+        }
+        .right {
+            width: 70%;
+            padding: 20px;
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        h2 {
+            color: rgb(146, 19, 40);
+        }
+        a {
+            color: rgb(223, 81, 104);
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm Kashish 👋</h1>
-    <p>B.Tech CSE Core student | Future Web & AI Developer 🚀</p>
-  </header>
 
-  <section id="skills">
-    <h2>🧠 Skills</h2>
-    <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Python (Basics)</li>
-      <li>Git & GitHub</li>
-      <li>Learning React & AI Tools</li>
-      <li>learning GEN AI</li>
-    </ul>
-  </section>
+<header>
+    <h1>My Profile</h1>
+</header>
 
-  <section id="projects">
-    <h2>💼 Projects</h2>
-    <div class="project">
-      <h3>Personal Portfolio</h3>
-      <p>This website! Hosted on GitHub Pages.</p>
+<div class="container">
+    <div class="left">
+        <img src="profile.jpg" alt="Profile Picture">
+        <h2>Kashish Upadhyay</h2>
+        <p>Email: <a href="mailto:kashish@gmail.com">kashish@gmail.com</a></p>
+        <p>Phone: +91 983467809</p>
     </div>
-    <div class="project">
-      <h3>Next: Weather App</h3>
-      <p>Planned – real-time weather info using HTML, CSS, JS and API.</p>
+    <div class="right">
+        <h2>Profile</h2>
+        <p>I am Kashish Upadhyay. I am from Gurgaon(Haryana) and I'm currently studying at VIT, Vellore.I'm passionate about coding,science and community service.In my free time,I love listening to music, reading books and watching movies.</p>
+
+        <h2>Contact Information</h2>
+        <table>
+            <tr>
+                <th>NAME:</th>
+                <th>Address:</th>
+                <th>PH NO.</th>
+                <th>Email:</th>   
+            </tr>
+            <tr>
+                <td>Kashish Upadhyay</td>
+                <td>Gurgaon,Haryana</td>
+                <td>+91 999956790</td>
+                <td>kashish@gmail.com</td>
+            </tr>
+        </table>
+        <h2>Educational Details</h2>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution name</th>
+                <th>Percentage</th>
+
+            </tr>
+            <tr>
+                <td>X</td>
+                <td>Ryan international school</td>
+                <td>96.2%</td>
+            </tr>
+            <tr>
+                <td>XII</td>
+                <td>Yaduvanshi Shiksha Niketan</td>
+                <td>91%</td>
+            </tr>
+        </table>
+
+        <h2>Co-curricular Activities</h2>
+        <ul>
+            <li>Gravitas'24 Volunteering</li>
+            <li>Hackathons</li>
+        </ul>
+
+        <h2>Extracurricular Activities</h2>
+        <ul>
+            <li>NGO Participation</li>
+            <li>NPO Participation</li>
+        </ul>
+
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>OOPS in C and C++</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>DSA</li>
+        </ul>
+
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Sketching/painting</li>
+            <li>Reading</li>
+            <li>Writing poetry</li>
+            <li>Listening to music</li>
+            <li>Singing</li>
+        </ul>
     </div>
-  </section>
+</div>
 
-  <section id="contact">
-    <h2>📞 Contact Me</h2>
-    <p>Email: kashishupadhyay30@email.com</p>
-    <p>GitHub: <a href="https://github.com/KashishUpadhyay30">My GitHub</a></p>
-  </section>
+<footer>
+    <p style="text-align: center;">&copy; 2024 Kashish Upadhyay. All rights reserved.</p>
+</footer>
 
-  <footer>
-    <p>© 2025 Kashish Upadhyay</p>
-  </footer>
 </body>
 </html>
-
